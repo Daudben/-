@@ -23,6 +23,7 @@ class ViewController: UIViewController {
             HistoryChanges.text = history
         } else {
             history += "\(Time()) попытка уменьшить значение счётчика ниже 0\n"
+            HistoryChanges.text = history
         }
     }
     
